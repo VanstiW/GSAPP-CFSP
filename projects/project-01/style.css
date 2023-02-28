@@ -66,11 +66,6 @@ animation: colors 5s;
     justify-content: center;
     padding-top: 50px;
 }
-.right {
-    padding-top: 50px;
-    width: 700px;
-
-}
 
 .left {
     padding-top: 50px;
@@ -79,8 +74,14 @@ animation: colors 5s;
     text-align: justify;
 }
 
+.right {
+    padding-top: 50px;
+    width: 700px;
+
+}
+
 img {
-    width: 50%;
+    width: 100%;
 }
 
 
