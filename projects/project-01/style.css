@@ -53,10 +53,10 @@ animation: colors 5s;
 
 @keyframes colors {
     0%{
-        background-color: gainsboro;
+        background-color: rgb(219, 198, 198);
     }
     100%{
-        background-color: gainsboro;
+        background-color: rgb(219, 198, 198);
     }
 }
 
