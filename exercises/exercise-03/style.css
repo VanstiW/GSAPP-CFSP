@@ -1,0 +1,48 @@
+body { 
+    font-family: 'Quicksand', sans-serif;
+}
+p { 
+    font-weight: 500 
+}
+h2 {
+    color:rgb(77, 206, 206)
+}
+h2{
+    text-align: center;
+}
+h4{
+    color:rgb(74, 200, 158)
+}
+h5{
+    color:rgb(10, 129, 129)
+}
+h5{
+    text-align: center;
+}
+body {
+    border-color: rgb(176, 134, 218);
+}
+body{
+    border-style: solid;
+}
+body{
+    border-width: 5px;
+}
+p{
+    margin-left: 20px;
+}
+h4{
+    margin-left: 20px;
+}
+h4{
+    margin-right: 20px;
+}
+p{
+    margin-right: 20px;
+}
+em{
+    margin-left: 20px;
+}
+em{
+    margin-right: 20px;
+}
