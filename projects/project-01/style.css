@@ -53,10 +53,10 @@ animation: colors 5s;
 
 @keyframes colors {
     0%{
-        background-color: rgb(219, 198, 198);
+        background-color: rgb(255, 67, 224);
     }
     100%{
-        background-color: rgb(219, 198, 198);
+        background-color: rgb(255, 67, 224);
     }
 }
 
