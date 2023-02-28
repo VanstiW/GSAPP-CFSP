@@ -1,48 +1,55 @@
-body { 
-    font-family: 'Quicksand', sans-serif;
+body {font-family: 'Hind', sans-serif;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
-p { 
-    font-weight: 500 
+
+
+
+.container {
+    background: yellow;
+    padding: 20px 40px;
+    line-height: 28px;
 }
-h2 {
-    color:rgb(36, 31, 172)
+
+nav {
+    background: tomato;
+    font-family: 'Anton', sans-serif;
+    font-size:medium;
 }
-h2{
+
+.title {
+    color: #2ec4b6;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    font-style: bold;
+}
+
+h3 {
     text-align: center;
 }
-h4{
-    color:rgb(222, 119, 39)
+
+.pullquote {
+    text-align:justify;
+    font-family: 'Anton', sans-serif;
+color: blueviolet;
+font-size: 32px;
+font-style: italic;
+line-height: 48px;
+width: 100%
 }
-h5{
-    color:rgb(222, 119, 39)
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: medium;
+    color: black;
+width: 60%;
+
 }
-h5{
+
+.note {
+    background: tomato;
+    font-family: 'Lexend', sans-serif;
     text-align: center;
-}
-body {
-    border-color: rgb(136, 92, 149);
-}
-body{
-    border-style: solid;
-}
-body{
-    border-width: 5px;
-}
-p{
-    margin-left: 40px;
-}
-h4{
-    margin-left: 20px;
-}
-h4{
-    margin-right: 20px;
-}
-p{
-    margin-right: 40px;
-}
-em{
-    margin-left: 40px;
-}
-em{
-    margin-right: 40px;
+    color: white;
 }
