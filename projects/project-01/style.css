@@ -39,8 +39,9 @@ body{
   }
 
 .header {
-    font-size: 60px;
+    font-size: 30px;
     font-weight: bold;
+    padding-right: 50px;
 }
 
 li {
