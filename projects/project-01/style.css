@@ -6,12 +6,12 @@
 
 
 body{
-    font-family: 'Cutive Mono', monospace;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .navbar {
     display: flex;
-    background-color: white;
+    background-color: rgb(180, 199, 236);
     justify-content: space-between;
     align-items: center;
     padding-left: 50px;
