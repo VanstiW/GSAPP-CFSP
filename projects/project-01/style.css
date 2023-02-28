@@ -41,7 +41,6 @@ body{
 .header {
     font-size: 60px;
     font-weight: bold;
-    padding-right: 200px;
 }
 
 li {
@@ -140,7 +139,7 @@ img {
     padding-top: 10px;
     padding-right: 50px;
     padding-left: 50px;
-    font-size: 12px;
+    font-size: 16px;
     width: 30%;
     text-align: center;
 }
