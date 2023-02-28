@@ -5,22 +5,22 @@ p {
     font-weight: 500 
 }
 h2 {
-    color:rgb(77, 206, 206)
+    color:rgb(36, 31, 172)
 }
 h2{
     text-align: center;
 }
 h4{
-    color:rgb(74, 200, 158)
+    color:rgb(222, 119, 39)
 }
 h5{
-    color:rgb(10, 129, 129)
+    color:rgb(222, 119, 39)
 }
 h5{
     text-align: center;
 }
 body {
-    border-color: rgb(176, 134, 218);
+    border-color: rgb(136, 92, 149);
 }
 body{
     border-style: solid;
@@ -29,7 +29,7 @@ body{
     border-width: 5px;
 }
 p{
-    margin-left: 20px;
+    margin-left: 40px;
 }
 h4{
     margin-left: 20px;
@@ -38,11 +38,11 @@ h4{
     margin-right: 20px;
 }
 p{
-    margin-right: 20px;
+    margin-right: 40px;
 }
 em{
-    margin-left: 20px;
+    margin-left: 40px;
 }
 em{
-    margin-right: 20px;
+    margin-right: 40px;
 }
