@@ -1,0 +1,51 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Kanit', sans-serif;
+    color: rgb(68, 121, 255);
+}
+
+nav {
+    height: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background: #773f71;
+    line-height: 60px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+li {
+    padding: 0 40px;
+}
+
+li:hover {
+    animation: colors 3s ease 0.5s;
+}
+
+@keyframes colors {
+    0% {
+        background-color: #f1eff1;
+    }
+    40% {
+        background-color: #f2b9ed;
+    }
+    60% {
+        background-color: #de5ec0;
+    }
+    100% {
+        background-color: #e2387f;
+    }
+}
