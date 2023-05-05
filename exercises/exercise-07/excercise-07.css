@@ -11,11 +11,9 @@
 }
 
 .sentence {
-    margin-top: 25px;
-    margin-left: 500px;
-    margin-right: 500px;
-    border: 2px solid rgb(108, 125, 218);
-    /*padding: 50px;*/
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
     background: #e6e6f6;
     text-align: center;
     font-family: 'Kanit', sans-serif;
@@ -24,30 +22,24 @@
 }
 
 .click {
-    margin-left: 500px;
-    margin-right: 500px;
-    background: #f3c0d5;
+    margin-left: 48%;
+    margin-right: 48%;
+    margin-top: 100px;
+    background: #f5d9e5;
     text-align: center;
 }
 
 button {
     background-color: #f3c0d5;
     color: rgb(108, 125, 218);
-    /*padding: 10px 20px;*/
     border: none;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
-    /*margin-top: 10px;*/
 }
 
 button:hover {
-    /*background-color: #40916c;*/
     color: #ab5378;
-}
-
-nav {
-    height: 60px;
 }
 
 * 
