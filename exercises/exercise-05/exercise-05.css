@@ -1,0 +1,86 @@
+body{
+  background-size: cover;
+  background-position: center;
+}
+
+
+  body {
+    font-family: 'Fira Sans', sans-serif;
+    background:#eed6e6;
+  }
+  
+  
+  .header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  header{
+    padding-left: 5%;
+  }
+  
+  
+  h3{
+    font-family: 'Fira Sans', sans-serif;
+    font-size:30px;
+    text-align:center;
+    color: #7966a9
+  }
+  
+  h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-size:50px;
+    text-align:center;
+    color: #5f75a5;
+  }
+  
+  
+
+  
+  .left {
+    width: 600px;
+    height: 400px;
+    margin-top: 50px;
+    margin-right: 50px;
+    box-shadow: 20px 10px 30px gray;
+    padding: 20px;
+    background-color: rgb(240, 239, 239);
+    opacity: 80%;
+    overflow:scroll;
+    position: relative;
+    border: 2px solid rgb(60, 141, 141);
+  }
+  
+  .right {
+    width: 600px;;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 20px 10px 30px gray;
+    padding: 20px;
+    background-color: rgb(240, 239, 239);
+    opacity: 0.8;
+    overflow: scroll;
+    border: 2px solid rgb(185, 130, 58);
+  }
+  
+  .pullquote {
+    color: #9a3649;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: bold;
+    font-style: italic;
+    font-size: 15px;
+  
+  }
+  
+  p {
+    line-height: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    padding-bottom: 20px;
+    font-size: 10px;
+    color: #6d6d6d;
+  }
+  
