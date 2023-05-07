@@ -1,45 +1,24 @@
-/* 
+const buttonPink = document.getElementById("button-pink");
+const buttonBlue = document.getElementById("button-blue");
+const buttonGreen = document.getElementById("button-green");
+const buttonYellow = document.getElementById("button-yellow");
 
-Instructions: when a user clicks on one of the colored dots, the    background color of the entire page changes to match that dot. You should not need to change any HTML or CSS. 
+buttonPink.addEventListener("click", function() {
+  document.body.style.backgroundColor = "#cf87b4";
+  notice.style.color = "#4770a9";
+});
 
-Hint: Classes for each color have already been defined in the CSS tab.
+buttonBlue.addEventListener("click", function() {
+  document.body.style.backgroundColor = "#4770a9";
+  notice.style.color = "#cf87b4";
+});
 
-*/
+buttonGreen.addEventListener("click", function() {
+  document.body.style.backgroundColor = "#54b194";
+  notice.style.color = "#ede394";
+});
 
-// 1 -- Select each button
-
-let pinkBtn = document.getElementById("pinkButton");
-let greenBtn = document.getElementById("greenButton");
-let blueBtn = document.getElementById("blueButton");
-let purpleBtn = document.getElementById("purpleButton");
-
-// 3 -- Write an event handler to change the color of the page when each circle is pressed.
-
-function switchToPink() {
-  let body = document.querySelector("body");
-  body.style.backgroundColor = "#d9a0b0";
-  body.style.color = "#d9a0b0";
-}
-
-function switchToGreen() {
-    let body = document.querySelector("body");
-    body.style.backgroundColor = "#8eb59d";
-    body.style.color = "#8eb59d";
-  }
-
-function switchToBlue() {
-  let body = document.querySelector("body");
-  body.style.backgroundColor = "#7799aa";
-  body.style.color = "#7799aa";
-}
-
-function switchToPurple() {
-  let body = document.querySelector("body");
-  body.style.backgroundColor = "#ad92bd";
-  body.style.color = "#ad92bd";
-}
-// 2 -- Add an event listener to each circle
-grayBtn.addEventListener("click", switchToPink);
-whiteBtn.addEventListener("click", switchToGreen);
-blueBtn.addEventListener("click", switchToBlue);
-yellowBtn.addEventListener("click", switchToPurple);
+buttonYellow.addEventListener("click", function() {
+  document.body.style.backgroundColor = "#ede394";
+  notice.style.color = "#54b194";
+});
