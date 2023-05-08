@@ -1,81 +1,122 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    /*   padding: 0; */
-  }
-  
-  html,
-  body {
-    height: 100vh;
-    width: 100%;
-    font-family: Helvetica, sans-serif;
-    font-size: 12px;
-  }
-  
-  .filters,
-  .list {
-    /*   background-color: #f15b31; */
-    padding: 20px;
-    /*   display: flex; */
-    border: 2px solid #141414;
-    width: 100%;
-  }
-  
-  .list {
-    height: 150vh;
-  }
-  
-  .filter-btn {
-    color: white;
-    background-color: #f15b31;
-    border-radius: 8px;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    border: none;
-  }
-  
-  .filter-btn.active {
-    color: black;
-    border-color: #F5C64A;
-    background: #F5C64A;
-  }
-  
-  ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    width: 1300px;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  li.card {
-    list-style-type: none;
-    border: 2px solid #141414;
-    padding: 10px;
-    margin: 10px;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  grid-gap: 10px;
-  }
+html, body{
+  height: 100vh;
+  width: 100%;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+}
 
-  li:hover {
-    background: #f15b31;
+footer {
+  padding: 20px;
+  border: 1px solid #787070;
+  color: #787070;
+}
+
+.dropdown-container {
+  background: rgb(216, 216, 209);
+  line-height: 80px;
+  color: rgb(65, 64, 57);
+  padding: 0 40px;
+}
+
+select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 1em;
+  font-family: inherit;
+  font-size: inherit;
+/*   color: inherit; */
+  color: #aeaeae;
+}
+
+.filters,
+.list {
+  /*   background-color: #f15b31; */
+  padding: 20px;
+  /*   display: flex; */
+  border: 2px solid #141414;
+  width: 100%;
+}
+
+.filter-btn {
+  color: white;
+  background-color: #aeaeae;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border: none;
+}
+
+.filter-btn.active {
+  border-color: #736d6d;
+  background: #736d6d;
+}
+
+/* List from Flowers Exercise*/
+.list {
+  background: rgb(245, 245, 242);
+  line-height: 25px;
+  color: rgb(86, 83, 76);
+  padding: 0 80px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+  border: 2px solid #a7a5a5;
+  padding: 10px;
+  margin: 10px;
+  width: 20%;
+}
+
+h2 {
+  font-size: 30px;
+  color:#787070
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+li:hover {
+  background: rgb(216, 216, 209);
+}
+
+ul .card.hide {
+  display: none;
+}
+
+ul .card.show {
+  /* display: block; */
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  ul .card.hide {
-    display: none;
+  100% {
+    opacity: 1;
   }
-  
-  ul .card.show {
-    /* display: block; */
-    animation: fadeIn 0.5s ease;
-  }
-  
-  .card {
-    background-color: black;
-      color: white;
-      padding: 20px 20px 0px 20px;
-  }
+}
+
+img {
+  width: 100%;
+  height: 200px;
+}
