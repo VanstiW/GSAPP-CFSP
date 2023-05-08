@@ -1,37 +1,95 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Index</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-     <divclass="container">
-        <div class="filters">
-            <h2>Please select the size of the island...</h2>
-            <br>
-            <button class="filter-btn" data-filter="small">Small</button>
-            <button class="filter-btn" data-filter="medium">Medium</button>
-            <button class="filter-btn" data-filter="large">Large</button>
-            <button class="filter-btn active" data-filter="all">All</button>
-          </div>
-    <!-- Results -->
-        <div class="list">
-            <br>
-            <br>
-            <h2>The Most Densly Populated Islands</h2>
-            <br>
-            <ul></ul>
-            <br>
-            <br>
+    <link rel="stylesheet" href="project-02.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1>Burton Snowboards Catalog</h1>
+      <br />
+      <div class="row">
+        <div class="search-nav">
+          <span class="nav-section-wrap"
+            ><h3 class="nav-item">Terrain</h3>
+            <ul class="refinement-list item-list">
+              <li>
+                <a
+                  class="nav-item tertiary"
+                  title="All Mountain"
+                  onclick="addCategories('all')"
+                  id="all"
+                  href="javascript:void(0)"
+                  ><span>All Mountain</span>
+
+                  <div class="checkbox">
+                    <img src="./image/icon.png" alt="" /></div
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="nav-item tertiary active"
+                  title="Park"
+                  onclick="addCategories('park')"
+                  id="park"
+                  href="javascript:void(0)"
+                  ><span>Park</span>
+                  <div class="checkbox active">
+                    <img src="./image/icon.png" alt="" /></div
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="nav-item tertiary"
+                  title="Powder"
+                  onclick="addCategories('powder')"
+                  id="powder"
+                  href="javascript:void(0)"
+                  ><span>Powder</span>
+
+                  <div class="checkbox">
+                    <img src="./image/icon.png" alt="" /></div
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="nav-item tertiary"
+                  title="Splitboards"
+                  onclick="addCategories('splitboards')"
+                  id="splitboards"
+                  href="javascript:void(0)"
+                  ><span>Splitboards</span>
+
+                  <div class="checkbox">
+                    <img src="./image/icon.png" alt="" /></div
+                ></a>
+              </li></ul
+          ></span>
         </div>
+        <div class="product-results">
+          <ul class="product-page" id="imgContainer">
+            <li class="product-image-wrap">
+              <a href="javascript:void(0)">
+                <img src="./image/1.png" alt="" />
+              </a>
+            </li>
+            <li class="product-image-wrap">
+              <a href="javascript:void(0)"></a>
+            </li>
+            <li class="product-image-wrap">
+              <a href="javascript:void(0)"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <script src="xxx.js"></script>
-    <footer>
-        <p>Islands in the Stream...</p>
-        <p>Made with &#10084; in New York City.</p>
-    </footer>
-</body>
+
+    <script src="project-02.js"></script>
+
+
+  </body>
 </html>

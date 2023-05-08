@@ -1,122 +1,140 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
-html, body{
-  height: 100vh;
-  width: 100%;
-  font-family: Helvetica, sans-serif;
-  font-size: 14px;
-}
-
-footer {
-  padding: 20px;
-  border: 1px solid #787070;
-  color: #787070;
-}
-
-.dropdown-container {
-  background: rgb(216, 216, 209);
-  line-height: 80px;
-  color: rgb(65, 64, 57);
-  padding: 0 40px;
-}
-
-select {
-  appearance: none;
-  background-color: transparent;
-  border: none;
-  padding: 0 1em 0 1em;
-  font-family: inherit;
-  font-size: inherit;
-/*   color: inherit; */
-  color: #aeaeae;
-}
-
-.filters,
-.list {
-  /*   background-color: #f15b31; */
-  padding: 20px;
-  /*   display: flex; */
-  border: 2px solid #141414;
-  width: 100%;
-}
-
-.filter-btn {
-  color: white;
-  background-color: #aeaeae;
-  border-radius: 20px;
-  width: 100px;
-  height: 30px;
-  text-align: center;
-  border: none;
-}
-
-.filter-btn.active {
-  border-color: #736d6d;
-  background: #736d6d;
-}
-
-/* List from Flowers Exercise*/
-.list {
-  background: rgb(245, 245, 242);
-  line-height: 25px;
-  color: rgb(86, 83, 76);
-  padding: 0 80px;
-}
-
-ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 li {
-  list-style-type: none;
-  border: 2px solid #a7a5a5;
-  padding: 10px;
-  margin: 10px;
-  width: 20%;
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.app {
+  color: #000;
+  font-size: 16px;
+  margin: 50px;
+  line-height: 1.5;
+}
+.row {
+  display: flex;
 }
 
-h2 {
-  font-size: 30px;
-  color:#787070
+.search-nav {
+  max-width: 25%;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  height: fit-content;
+}
+h3.nav-item {
+  margin-bottom: 20px;
+}
+.search-nav .nav-item {
+  align-items: center;
+  color: #4e4c4b;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  min-height: 3.2rem;
+  padding: 0 1.5rem;
+  transition: background 0.35s;
 }
 
-h3 {
-  font-size: 24px;
+.search-nav .refinement-list a {
+  color: #4e4c4b;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.3125rem;
+  text-decoration: none;
+  text-transform: none;
+}
+.search-nav .nav-item.tertiary {
+  padding: 0 1.5rem 0 2.5rem;
+}
+.search-nav .refinement-list a:hover,
+.show-focus .search-nav .refinement-list a:focus {
+  color: #4e4c4b;
+  text-decoration: underline;
+}
+.search-nav .nav-item:hover {
+  background: #e5e5e5;
+  cursor: pointer;
+  transition: background 0s;
 }
 
-h4 {
-  font-size: 15px;
+.checkbox {
+  display: block;
+  background-color: #fff;
+  border: 1px solid #333;
+  height: 20px;
+  min-height: 20px;
+  min-width: 20px;
+  position: relative;
+  transition: border 0.15s cubic-bezier(0.165, 0.84, 0.44, 1),
+    background-color 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
+  width: 20px;
 }
-
-li:hover {
-  background: rgb(216, 216, 209);
-}
-
-ul .card.hide {
+.checkbox img {
+  width: 100%;
+  height: 100%;
   display: none;
 }
-
-ul .card.show {
-  /* display: block; */
-  animation: fadeIn 0.5s ease;
+.checkbox.active img {
+  display: block;
 }
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-img {
+.checkbox:hover:after {
+  border: 2px solid #333;
+  content: "";
+  display: block;
+  height: 100%;
+  left: -2px;
+  pointer-events: none;
+  position: absolute;
+  top: -2px;
   width: 100%;
-  height: 200px;
+}
+
+.product-results {
+  flex: 0 0 75%;
+  margin-left: auto;
+  margin-right: 0px;
+  max-width: calc(75% - 50px);
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  margin-left: 50px;
+}
+.product-page {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.product-image-wrap {
+  flex: 0 0 30%;
+  max-width: 30%;
+  min-height: 500px;
+  background: #f5f5f5;
+  border: 2px solid #fff;
+  display: block;
+  margin-bottom: 3%;
+  margin-right: 3%;
+  position: relative;
+}
+.product-image-wrap a,
+.product-image-wrap a img {
+  width: 100%;
+  height: 100%;
+}
+.product-image-wrap .product-name {
+  margin-bottom: 10px;
+}
+.imghover {
+  display: none;
+}
+.product-image-wrap a:hover .imghover {
+  display: inline;
+}
+.product-image-wrap a:hover .img {
+  display: none;
 }
