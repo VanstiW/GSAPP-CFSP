@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    /*   padding: 0; */
+  }
+  
+  html,
+  body {
+    height: 100vh;
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+  }
+  
+  .filters,
+  .list {
+    /*   background-color: #f15b31; */
+    padding: 20px;
+    /*   display: flex; */
+    border: 2px solid #141414;
+    width: 100%;
+  }
+  
+  .list {
+    height: 150vh;
+  }
+  
+  .filter-btn {
+    color: white;
+    background-color: #f15b31;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: none;
+  }
+  
+  .filter-btn.active {
+    color: black;
+    border-color: #F5C64A;
+    background: #F5C64A;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width: 1300px;
+  }
+
+  li.card {
+    list-style-type: none;
+    border: 2px solid #141414;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  grid-gap: 10px;
+  }
+
+  li:hover {
+    background: #f15b31;
+  }
+  
+  ul .card.hide {
+    display: none;
+  }
+  
+  ul .card.show {
+    /* display: block; */
+    animation: fadeIn 0.5s ease;
+  }
+  
+  .card {
+    background-color: black;
+      color: white;
+      padding: 20px 20px 0px 20px;
+  }
